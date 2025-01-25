@@ -47,7 +47,7 @@ Serve the project using a local server (e.g., Live Server in VS Code).
 ├── 📄 script.js        # Game logic
 ├── 📄 style.css        # Styling
 ├── 📄 README.md        # Project description
-└── 📄 LICENSE          # Project license
+└── 📄 favicon.ico      # Project Favicon
 ```
 
 ## ✨ Contribution
