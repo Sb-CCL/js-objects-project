@@ -13,13 +13,13 @@ A fun and interactive game where players guess a randomly generated number betwe
 Clone the repository:
 
 ```bash
-git clone https://github.com/Sb-CCL/js-objects-array-project.git
+git clone https://github.com/Sb-CCL/js-objects-project.git
 ```
 
 Navigate to the project folder:
 
 ```bash
-js-objects-array-project
+js-objects-project
 ```
 
 Serve the project using a local server (e.g., Live Server in VS Code).
