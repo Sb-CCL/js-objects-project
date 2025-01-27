@@ -6,11 +6,8 @@ const game = {
   attempts: 0,
   // Store game messages in a nested object for easy access
   messages: {
-    // Message for too low
     tooLow: "Nope, too low! Try again.",
-    // Message for too high
     tooHigh: "Nope, too high! Try again.",
-    // Message for just right
     correct: "Congratulations!! 🥳",
     subText: "You guessed right! 🎉",
     btnTryAgn: "Try again? 🤔",
