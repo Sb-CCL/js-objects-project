@@ -5,6 +5,7 @@ A fun and interactive game where players guess a randomly generated number betwe
 ## 🌟 Features
 
 - Interactive Gameplay: Players guess the correct number and receive instant feedback.
+- Validation: User input is validated to determine if its a number between 1 and 10.
 - Confetti Celebration: A festive confetti fireworks animation when the correct guess is made.
 - Attempt Counter: Tracks the number of attempts made by the player.
 

@@ -10,9 +10,19 @@
     <div class="container">
       <h1 id="title">Guess the Number</h1>
       <p id="message">What number am I thinking of? 1-10</p>
-      <input type="number" id="guessInput" min="1" max="10" />
-      <button id="guessBtn">Guess</button>
-      <p id="totalAttempts">Attempts: 0</p>
+      <input
+        type="number"
+        id="guessInput"
+        min="1"
+        max="10"
+        placeholder="What's your guess?"
+        aria-label="Guess input"
+      />
+      <div class="btn-container">
+        <button id="guessBtn">Submit</button>
+        <button id="resetBtn" style="display: none">Reset Game</button>
+        <p id="totalAttempts">Attempts: 0</p>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
     <script src="script.js"></script>
