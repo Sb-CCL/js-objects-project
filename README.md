@@ -52,6 +52,7 @@ Serve the project using a local server (e.g., Live Server in VS Code).
 ├── 📄 README.md        # Project description
 └── 📄 favicon.ico      # Project favicon
 └── 📄 screenshot.png   # Project screenshot
+└── 📄 bg-img.png       # Project wallpaper
 ```
 
 ## ✨ Contribution
