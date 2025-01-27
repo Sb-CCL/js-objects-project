@@ -28,7 +28,7 @@ Serve the project using a local server (e.g., Live Server in VS Code).
 ## 📋 How to Play
 
 1. Open the game in your browser.
-2. Guess a number between 1 and 10 by typing it into the input box.
+2. Guess a number between 1 and 20 by typing it into the input box.
 3. Click the Guess button or press Enter to submit your guess.
 4. Follow the feedback and try to guess the correct number!
 5. Celebrate your win with a confetti burst 🎉.
