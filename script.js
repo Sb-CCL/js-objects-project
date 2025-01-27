@@ -9,7 +9,7 @@ const game = {
     tooLow: "Nope, too low! Try again.",
     tooHigh: "Nope, too high! Try again.",
     correct: "Congratulations!! 🥳",
-    subText: "You guessed right! 🎉",
+    subText: "You guessed it right! 🎉",
     btnTryAgn: "Try again? 🤔",
     btnWinner: "You got it right!",
     incorrectInput: "Enter a valid number between 1-20 🧐",
