@@ -83,7 +83,6 @@ function checkGuess() {
   if (userGuess === game.secretNumber) {
     title.innerText = game.messages.correct;
     message.innerText = game.messages.subText;
-    // Disable the guess button from being pressed
     // Hide guess button
     guessBtn.style.display = "none";
     // Show reset button
