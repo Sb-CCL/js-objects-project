@@ -2,6 +2,8 @@
 
 A fun and interactive game where players guess a randomly generated number between 1 and 20.
 
+![screenshot](screenshot.png "screenshot")
+
 ## 🌟 Features
 
 - Interactive Gameplay: Players guess the correct number and receive instant feedback.
@@ -48,7 +50,8 @@ Serve the project using a local server (e.g., Live Server in VS Code).
 ├── 📄 script.js        # Game logic
 ├── 📄 style.css        # Styling
 ├── 📄 README.md        # Project description
-└── 📄 favicon.ico      # Project Favicon
+└── 📄 favicon.ico      # Project favicon
+└── 📄 screenshot.png   # Project screenshot
 ```
 
 ## ✨ Contribution

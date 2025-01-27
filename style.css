@@ -28,7 +28,7 @@ body {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  min-width: 25%;
+  min-width: 20%;
 }
 
 #totalAttempts {
@@ -37,16 +37,6 @@ body {
   border-radius: 4px;
   font-size: 13px;
   border: 1.34px solid #ececec;
-}
-
-#message {
-  padding: 5px;
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-  border: 1px solid #dddddd;
-  border-left-width: 1px;
-  border-left-color: #dddddd;
-  border-left-width: 0.25rem;
 }
 
 .btn-container {
