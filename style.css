@@ -8,18 +8,52 @@ body {
   background-color: #f0f0f0;
 }
 
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 110%;
+  background: url("https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center;
+  background-size: cover;
+  filter: blur(20px);
+  transform: scale(1.1);
+  z-index: -1;
+}
+
 .container {
   text-align: center;
   background-color: white;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 25%;
+}
+
+#totalAttempts {
+  background-color: hsl(0, 0%, 96.9%);
+  padding: 3px 5px 3px 5px;
+  border-radius: 4px;
+  font-size: 13px;
+  border: 1.34px solid #ececec;
+}
+
+#message {
+  padding: 5px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #dddddd;
+  border-left-width: 1px;
+  border-left-color: #dddddd;
+  border-left-width: 0.25rem;
 }
 
 .btn-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10px;
 }
 
 input {

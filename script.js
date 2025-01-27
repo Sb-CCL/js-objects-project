@@ -103,7 +103,7 @@ function checkGuess() {
     guessBtn.innerText = game.messages.btnTryAgn;
   }
 
-  guessInput.value = ""; // Clears the input value
+  guessInput.value = ""; // Clear input field
 }
 
 const gameReset = () => {
