@@ -1,11 +1,11 @@
 ## 🎯 Guess the Number Game
 
-A fun and interactive game where players guess a randomly generated number between 1 and 10.
+A fun and interactive game where players guess a randomly generated number between 1 and 20.
 
 ## 🌟 Features
 
 - Interactive Gameplay: Players guess the correct number and receive instant feedback.
-- Validation: User input is validated to determine if its a number between 1 and 10.
+- Validation: User input is validated to determine if its a number between 1 and 20.
 - Confetti Celebration: A festive confetti fireworks animation when the correct guess is made.
 - Attempt Counter: Tracks the number of attempts made by the player.
 

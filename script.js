@@ -1,7 +1,7 @@
 // Created an object
 const game = {
-  // Generate a random secret number between 1 and 10
-  secretNumber: Math.floor(Math.random() * 10) + 1,
+  // Generate a random secret number between 1 and 20
+  secretNumber: Math.floor(Math.random() * 20) + 1,
   // Reset the attempt to 0
   attempts: 0,
   // Store game messages in a nested object for easy access
@@ -74,7 +74,7 @@ function checkGuess() {
   // hide reset button
 
   // Validates user input if its Not-A-Number
-  if (isNaN(userGuess) || userGuess < 1 || userGuess > 10) {
+  if (isNaN(userGuess) || userGuess < 1 || userGuess > 20) {
     message.innerText = game.messages.incorrectInput;
     return;
   }
@@ -109,7 +109,7 @@ function checkGuess() {
 }
 
 const gameReset = () => {
-  game.secretNumber = Math.floor(Math.random() * 10) + 1; // Generate a new random number
+  game.secretNumber = Math.floor(Math.random() * 20) + 1; // Generate a new random number
   game.attempts = 0; // Reset attempts
   totalAttempts.innerText = `Attempts: ${game.attempts}`; // Reset attempts display
   guessBtn.disabled = false; // Enable the Guess button
