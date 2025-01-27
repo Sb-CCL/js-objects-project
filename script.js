@@ -73,6 +73,8 @@ function checkGuess() {
   // Validates user input if its Not-A-Number
   if (isNaN(userGuess) || userGuess < 1 || userGuess > 20) {
     message.innerText = game.messages.incorrectInput;
+    // Clear input field
+    guessInput.value = "";
     return;
   }
 
