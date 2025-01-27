@@ -15,7 +15,7 @@ const game = {
     subText: "You guessed right! 🎉",
     btnTryAgn: "Try again? 🤔",
     btnWinner: "You got it right!",
-    incorrectInput: "Enter a valid number. Try again? 🧐",
+    incorrectInput: "Enter a valid number between 1-20 🧐",
   },
   // Method to increment the attempts counter
   updateAttempts: function () {
